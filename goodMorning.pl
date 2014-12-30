@@ -4,7 +4,7 @@
 # Author : Eric Hopkins
 # Date   : 12/30/14
 #
-# One of my common morning tasks is to check all the repositiories I wor on,
+# One of my common morning tasks is to check all the repositiories I work on,
 # and do pulls on them.
 #
 # This script is designed to run through a root directory of projects and do
