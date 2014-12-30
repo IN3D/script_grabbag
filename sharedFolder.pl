@@ -1,15 +1,13 @@
 #!/usr/bin/perl
 
-#######################################
+###############################################################################
 # Author : Eric Hopkins
 # Date   : 12/30/14
 #
-# This script is to setup a shared 
-# folder for a virtualbox client.
+# This script is to setup a shared folder for a virtualbox client.
 #
-# This script sets up the owner as the
-# current user (as opposed to root).
-#######################################
+# This script sets up the owner as the current user (as opposed to root).
+###############################################################################
 
 use strict;
 use warnings;
