@@ -25,6 +25,8 @@
 use strict;
 use warnings;
 
+die "Usage: 2 Arguments required. Name of the shared folder, and the directory to mount it to." unless (@ARGV == 2);
+
 my $return = system("sudo mount -t vboxsf -o rw,uid=1000,gid=1000 $ARGV[0] $ARGV[1]");
 
 if ($return == 0) {

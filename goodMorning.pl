@@ -25,6 +25,9 @@
 ###############################################################################
 use strict;
 use warnings;
+
+die "Usage: 1 Argument required. Provide the root directory holding the Git repositories you wish to have updated." unless (@ARGV == 1);
+
 my $root;
 
 # check to see if a trailing / was given or not
