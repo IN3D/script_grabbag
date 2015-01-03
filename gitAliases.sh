@@ -28,6 +28,6 @@ echo `git config --global alias.cob 'checkout -b'`
 echo `git config --global alias.s 'status -s'`
 echo `git config --global alias.whoami config user.email`
 echo `git config --global alias.beyonce config user.name`
-echo `git config --global alias.hist log --oneline`
+echo `git config --global alias.hist 'log --oneline'`
 echo `git config --global alias.untrack 'rm --cache'`
 echo `git config --global alias.all 'add .'`
