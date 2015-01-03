@@ -27,6 +27,7 @@ use warnings;
 die "Usage: 1 Argument required. Provide the name of the branch that you would like update.\n" unless (@ARGV >= 1);
 
 # First, check to see that an upstream has been set.
+print "Checking to see if upstream is set...\n";
 my $output = `git remote -v`;
 my $fetch  = 1;
 
@@ -35,12 +36,18 @@ $fetch = 0 if $output =~ '/upstream/';
 
 # if there is no apparent upstream, one needs to be set.
 if ($fetch) {
+    print "No upstream set. Trying to set...\n";
     die "Failure: no upstream is set, and an origin was not provided. Could not set upstream. Please provide a second argument.\n" unless (@ARGV == 2);
 
     system("git remote add upstream $ARGV[1]");
 }
 
+print "Upstream is set!\n";
+
 # fetch, checkout, and merge.
+print "Beginning fetch, checkout, and merge.\n";
 system("git fetch upstream");
 system("git checkout $ARGV[0]");
 system("git merge upstream/$ARGV[0]");
+
+print "Success! Script finished, upstream is set, and fork merged.\n";
