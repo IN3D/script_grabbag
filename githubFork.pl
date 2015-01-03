@@ -31,7 +31,7 @@ my $output = `git remote -v`;
 my $fetch  = 1;
 
 # if there is a match, no need to set upstream.
-$fetch = 0 if $output ~= '/upstream/';
+$fetch = 0 if $output =~ '/upstream/';
 
 # if there is no apparent upstream, one needs to be set.
 if ($fetch) {
