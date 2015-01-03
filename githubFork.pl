@@ -24,7 +24,7 @@
 use strict;
 use warnings;
 
-die "Usage: 1 Argument required. Provide the name of the branch that you would like update.\n" unless (@ARGV == 1);
+die "Usage: 1 Argument required. Provide the name of the branch that you would like update.\n" unless (@ARGV >= 1);
 
 # First, check to see that an upstream has been set.
 my $output = `git remote -v`;
