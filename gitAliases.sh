@@ -25,7 +25,7 @@ echo `git config --global alias.aliases config --get-regex alias`
 echo `git config --global alias.ci 'commit -m'`
 echo `git config --global alias.co checkout`
 echo `git config --global alias.cob 'checkout -b'`
-echo `git config --global alias.s status -s`
+echo `git config --global alias.s 'status -s'`
 echo `git config --global alias.whoami config user.email`
 echo `git config --global alias.beyonce config user.name`
 echo `git config --global alias.hist log --oneline`
