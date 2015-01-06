@@ -29,9 +29,11 @@
 use strict;
 use warnings;
 
-die "Usage:\nARG 1: root directory of git repositories.\nARG 2 (optional): Name of the branch you would like the repositories set to.\n" if ($ARGV[0] eq '-h');
+die "Usage: 1 Argument required. Provide the root directory holding the Git " .
+"repositories you wish to have updated.\nFor help, please type -h.\n" unless (@ARGV >= 1);
 
-die "Usage: 1 Argument required. Provide the root directory holding the Git repositories you wish to have updated.\nFor help, please type -h.\n" unless (@ARGV >= 1);
+die "Usage:\nARG 1: root directory of git repositories.\nARG 2 (optional): " .
+"Name of the branch you would like the repositories set to.\n" if ($ARGV[0] eq '-h');
 
 my $root;
 
