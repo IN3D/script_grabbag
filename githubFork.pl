@@ -49,5 +49,6 @@ print "Beginning fetch, checkout, and merge.\n";
 system("git fetch upstream");
 system("git checkout $ARGV[0]");
 system("git merge upstream/$ARGV[0]");
+system("git push");
 
-print "Success! Script finished, upstream is set, and fork merged.\n";
+print "\n\nSuccess! Script finished, upstream is set, and fork merged.\n";
