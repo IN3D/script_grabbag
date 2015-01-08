@@ -5,7 +5,7 @@
 # This script is designed to get pkgin setup on NetBSD. This targets version
 # 6.1.5 for amd64 systems. Changes as necessary.
 #
-# This program is free software: you can redistribute iit and/or modify it
+# This program is free software: you can redistribute it and/or modify it
 # under the terms of the GNU General Public License as published by the Free
 # Software Foundation, either version 3 of the License, or (at your option)
 # any later version.
