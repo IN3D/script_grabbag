@@ -1,6 +1,6 @@
 ###############################################################################
 # Author: Eric Hopkins
-# Date: 01/04/15
+# Date  : 01/04/15
 #
 # This script is designed to get pkgin setup on NetBSD. This targets version
 # 6.1.5 for amd64 systems. Changes as necessary.

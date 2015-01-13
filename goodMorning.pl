@@ -1,8 +1,8 @@
 #!/usr/bin/perl
 
 ###############################################################################
-# Author : Eric Hopkins
-# Date   : 12/30/14
+# Author: Eric Hopkins
+# Date  : 12/30/14
 #
 # One of my common morning tasks is to check all the repositiories I work on,
 # and do pulls on them.

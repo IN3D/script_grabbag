@@ -1,8 +1,8 @@
 #!/usr/bin/perl
 
 ###############################################################################
-# Author : Eric Hopkins
-# Date   : 12/30/14
+# Author: Eric Hopkins
+# Date  : 12/30/14
 #
 # This script is to setup a shared folder for a virtualbox client.
 #

@@ -1,8 +1,8 @@
 #!/usr/bin/perl
 
 ################################################################################
-# Author : Eric Hopkins
-# Date   : 01/02/15
+# Author: Eric Hopkins
+# Date  : 01/02/15
 #
 # This is designed to work with GitHub forks. The commands for working with
 # forks for whatever reason always escape me. Provide an argument for the name
