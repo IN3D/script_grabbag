@@ -31,3 +31,7 @@ echo `git config --global alias.beyonce 'config user.name'`
 echo `git config --global alias.hist 'log --oneline'`
 echo `git config --global alias.untrack 'rm --cache'`
 echo `git config --global alias.all 'add .'`
+echo `git config --global alias.uncommit 'reset --soft HEAD~1'`
+echo `git config --global alias.unstash 'stash apply'`
+echo `git config --global alias.aci 'commit -am'`
+echo `git config --global alias.p push`
