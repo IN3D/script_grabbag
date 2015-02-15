@@ -21,4 +21,4 @@
 # You should have received a copy of the GNU General Public License along
 # with this program. If not, see <http://www.gnu.org/licenses/>
 ###############################################################################
-`npm list -g --depth=0`
+puts `npm list -g --depth=0`
