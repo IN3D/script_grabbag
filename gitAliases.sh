@@ -35,3 +35,5 @@ echo `git config --global alias.uncommit 'reset --soft HEAD~1'`
 echo `git config --global alias.unstash 'stash apply'`
 echo `git config --global alias.aci 'commit -am'`
 echo `git config --global alias.p push`
+echo `git config --global alias.toremote 'push -u origin'`
+echo `git config --global alias.deleteremote 'push origin --delete'`
